@@ -1,8 +1,8 @@
 Small script interface with language translator mymemory
 
-http://mymemory.translated.net/doc/spec.php
-http://mymemory.translated.net/doc/usagelimits.php
+<br>http://mymemory.translated.net/doc/spec.php
+<br>http://mymemory.translated.net/doc/usagelimits.php
 
 
 dependencies:
-	ofxJSON
+<br>	ofxJSON

@@ -24,7 +24,7 @@ class ofxTranslated{
                     response=result["OK"]["matches"]["translation"].asString();
                 }
                 else{
-                    ofLog(OF_LOG_ERROR)  << "Failed to parse JSON" << endl;
+                    response="Failed JSON!";
                 }
                 return response;
 		}
