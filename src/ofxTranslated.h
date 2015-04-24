@@ -7,9 +7,7 @@
 
 class ofxTranslated : public ofThread {
 	public:
-		string langpair;
-		string context;
-		string dump;
+                string cmd,da,a;
 	        ofxJSONElement result;
 
 		ofxTranslated(){ }
@@ -50,7 +48,5 @@ class ofxTranslated : public ofThread {
                         string result = getResponse(cmd.c_str(),da.c_str(),a.c_str());
                         ofNotifyEvent( requestComplete, result, this );
                 }
-
-                string cmd,da,a;
 
 };
